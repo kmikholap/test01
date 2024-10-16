@@ -10,11 +10,11 @@ spec:
     devices:
       dynamicDirectPathIODevices:
         # Intel UHD 770 GPU
-        - deviceID: 0xa780
+        - deviceID: 0x9a49
           vendorID: 0x8086
         # RealSense D435 USB Camera  
-        - deviceID: 0x0b07
-          vendorID: 0x8086
+        #- deviceID: 0x0b07
+        #  vendorID: 0x8086
   policies:
     resources:
       requests:
