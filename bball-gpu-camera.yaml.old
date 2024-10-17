@@ -33,7 +33,7 @@ metadata:
 spec:
   className: guaranteed-small-gpu-usb
   # OVA must be at least with VHW versio 17 or higher, ensure correct path below
-  imageName: 192.168.8.100/ubuntu22-srv-iot-intel.ova
+  imageName: 192.168.8.100/ubuntu-22.04-server-cloudimg-amd64-vmx17.ova
   networkInterfaces:
   - ethernetCardType: vmxnet3
     networkName: VM Network
