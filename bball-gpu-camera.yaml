@@ -37,7 +37,7 @@ spec:
   networkInterfaces:
   - ethernetCardType: vmxnet3
     networkName: VM Network
-  powerState: poweredOn
+  powerState: poweredOff
   vmMetadata:
     configMapName: user-data
     transport: CloudInit
