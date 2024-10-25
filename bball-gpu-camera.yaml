@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   hardware:
-    cpus: 2
+    cpus: 3
     memory: 4Gi
     devices:
       dynamicDirectPathIODevices:
